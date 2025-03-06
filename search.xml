@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2025/03/07/hello-world/"/>
-      <url>/2025/03/07/hello-world/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>buuctf misc wp (持续更新)</title>
       <link href="/2025/03/05/buuctf%20misc%20wp/"/>
       <url>/2025/03/05/buuctf%20misc%20wp/</url>
@@ -193,72 +180,6 @@
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="ctfshow第一课"><a href="#ctfshow第一课" class="headerlink" title="ctfshow第一课"></a>ctfshow第一课</h1><h2 id="信息泄漏的类型"><a href="#信息泄漏的类型" class="headerlink" title="信息泄漏的类型"></a>信息泄漏的类型</h2><h3 id="1-版本软件信息泄露"><a href="#1-版本软件信息泄露" class="headerlink" title="1.版本软件信息泄露"></a>1.版本软件信息泄露</h3><ul><li>.git</li><li>svn</li><li>.hg</li><li>.bzr</li><li>CVS</li></ul><h3 id="2-敏感文件信息泄露"><a href="#2-敏感文件信息泄露" class="headerlink" title="2.敏感文件信息泄露"></a>2.敏感文件信息泄露</h3><ul><li>robots.txt</li><li><a href="http://www.zip/">www.zip</a></li><li>静态文件注释泄露</li></ul><h3 id="3-配置错误信息泄露"><a href="#3-配置错误信息泄露" class="headerlink" title="3.配置错误信息泄露"></a>3.配置错误信息泄露</h3><ul><li>DS_Store</li><li>WEB-INF</li><li>Apache&#x2F;nginx 错误配置</li></ul><p>&#x3D;&#x3D;不管白猫黑猫，抓住老鼠就是好猫&#x3D;&#x3D;</p><p>&#x2F;admin&#x2F;  访问的是admin目录<br>&#x2F;admn     访问的是admin文件<br>&#x2F;user        访问的是这个路由</p><h3 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h3><ul><li>200 表示正常</li><li>301 302 表示跳转</li><li>404 表示文件不存在</li><li>500 表示服务器内部错误</li><li>502 表示转发失败 error getwary</li></ul><h4 id="robots-txt"><a href="#robots-txt" class="headerlink" title="robots.txt"></a>robots.txt</h4><p>机器人协议，又称为爬虫协议，防君子不防小人，能看到他不想让你访问的网址</p><h4 id="git"><a href="#git" class="headerlink" title=".git"></a>.git</h4><p>这个泄露使用GitHack就可以查看到泄漏的内容</p>]]></content>
       
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>mdhelp</title>
-      <link href="/2024/12/13/mdhelp/"/>
-      <url>/2024/12/13/mdhelp/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>正文</p><ul><li>无序列表</li></ul><ol><li>有序列表</li><li>有序列表1<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">代码框</span><br></pre></td></tr></table></figure></li></ol><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//有代码高亮的代码框</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="%E9%93%BE%E6%8E%A5">链接名字</a><br><a href="https://www.baidu.com/">百度</a><br><img src="/%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5" alt="图片名字"></p><p>hexo s 预览<br>hexo cl 删除缓存(public 文件夹)<br>hexo d 上传(关闭加速器)<br>hexo g 生成文件（public文件夹</p><p>public文件夹内全部文件上传服务器部署即可访问</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类1 </category>
-          
-          <category> 分类2 </category>
-          
-          <category> 二级分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-            <tag> 以此类推 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>mdhelp</title>
-      <link href="/2024/12/13/test/"/>
-      <url>/2024/12/13/test/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这是文章<br>hexo s 预览<br>hexo cl 删除缓存(public 文件夹)<br>hexo d 上传(关闭加速器)<br>hexo g 生成文件（public文件夹</p><p>public文件夹内全部文件上传服务器部署即可访问</p><p><img src="https://lsw-fast.lenovo.com.cn/appstore/normal/apps/4036-2023-06-07063227-1686133947351.png" alt="图片测试"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类1 </category>
-          
-          <category> 分类2 </category>
-          
-          <category> 二级分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-            <tag> 以此类推 </tag>
-            
-        </tags>
       
     </entry>
     
